@@ -1,5 +1,7 @@
 ###SlideCalendar
-Slide left and right, add custom event.
+> **Slide left and right**
+> **Add custom events**
+
 
 ###Demo
 ![image](https://raw.githubusercontent.com/EasyToForget/SlideCalendar/master/Calendar.gif)
