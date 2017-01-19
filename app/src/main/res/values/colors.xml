@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#1E8CF0</color>
+    <color name="colorPrimaryDark">#0F78D8</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_white_color">#FFF</color>
+    <color name="bg_month_color">#F5F5F5</color>
+    <color name="bg_black_color">#000</color>
 </resources>

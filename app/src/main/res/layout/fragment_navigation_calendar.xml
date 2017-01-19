@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/calendar_title"
+            android:textColor="@color/bg_white_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2017"
+            android:textColor="@color/bg_white_color"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_sunday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_monday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_tuesday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_wednesday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_thursday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_friday" />
+
+            <TextView
+                style="@style/calendar_week_style"
+                android:text="@string/calendar_saturday" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg_month_color"
+        android:gravity="center"
+        android:textColor="@color/bg_black_color"
+        android:textSize="15sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white_color" />
+
+
+</LinearLayout>
