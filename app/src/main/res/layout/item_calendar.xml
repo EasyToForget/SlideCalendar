@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/bg_black_color"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_muti"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_day"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_top"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_calendar_green_oval" />
+
+        <View
+            android:id="@+id/view_bottom"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_calendar_red_oval" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_single"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_day"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_single"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_calendar_green_oval" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_main_color" />
+
+    <View
+        android:id="@+id/divider_current_view"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_calendar_color" />
+
+</RelativeLayout>

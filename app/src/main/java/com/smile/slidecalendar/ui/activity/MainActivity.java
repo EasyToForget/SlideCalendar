@@ -1,4 +1,4 @@
-package com.smile.slidecalendar;
+package com.smile.slidecalendar.ui.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,11 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager;
-import com.smile.slidecalendar.adapter.BaseFragmentAdapter;
-import com.smile.slidecalendar.fragment.CalendarFragment;
-import com.smile.slidecalendar.fragment.HomeFragment;
-import com.smile.slidecalendar.fragment.MessageFragment;
-import com.smile.slidecalendar.fragment.MyFragment;
+import com.smile.slidecalendar.R;
+import com.smile.slidecalendar.ui.adapter.BaseFragmentAdapter;
+import com.smile.slidecalendar.ui.fragment.CalendarFragment;
+import com.smile.slidecalendar.ui.fragment.HomeFragment;
+import com.smile.slidecalendar.ui.fragment.MessageFragment;
+import com.smile.slidecalendar.ui.fragment.MyFragment;
 
 import java.util.ArrayList;
 import java.util.List;

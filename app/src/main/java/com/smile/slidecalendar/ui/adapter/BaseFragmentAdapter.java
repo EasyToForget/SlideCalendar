@@ -1,4 +1,4 @@
-package com.smile.slidecalendar.adapter;
+package com.smile.slidecalendar.ui.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

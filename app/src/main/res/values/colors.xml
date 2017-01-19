@@ -7,4 +7,17 @@
     <color name="bg_white_color">#FFF</color>
     <color name="bg_month_color">#F5F5F5</color>
     <color name="bg_black_color">#000</color>
+
+    <color name="bg_oval_red">#FF7676</color>
+    <color name="bg_oval_green">#8BCA3B</color>
+
+    <color name="divider_main_color">#CCC</color>
+    <color name="divider_second_color">#E4E4E4</color>
+    <color name="divider_calendar_color">#02B0F2</color>
+
+    <color name="bg_main_color">#EEE</color>
+    <color name="bg_main_red">#FF3B30</color>
+    <color name="font_main_color">#949494</color>
+
+    <color name="bg_main_orange">#FF8E00</color>
 </resources>

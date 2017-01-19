@@ -1,4 +1,4 @@
-package com.smile.slidecalendar.fragment;
+package com.smile.slidecalendar.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,10 +13,10 @@ import com.smile.slidecalendar.R;
  * @author Smile Wei
  * @since 2017/1/19.
  */
-public class MessageFragment extends Fragment {
+public class MyFragment extends Fragment {
 
-    public static MessageFragment newInstance() {
-        MessageFragment fragment = new MessageFragment();
+    public static MyFragment newInstance() {
+        MyFragment fragment = new MyFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -30,6 +30,6 @@ public class MessageFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_navigation_message, container, false);
+        return inflater.inflate(R.layout.fragment_navigation_my_profile, container, false);
     }
 }
