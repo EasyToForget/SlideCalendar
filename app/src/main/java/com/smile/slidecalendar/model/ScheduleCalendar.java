@@ -2,7 +2,7 @@ package com.smile.slidecalendar.model;
 
 /**
  * @author Smile Wei
- * @since 2017/1/13.
+ * @since 2017/1/18.
  */
 public class ScheduleCalendar {
 
