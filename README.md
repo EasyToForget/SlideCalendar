@@ -1,14 +1,14 @@
-###SlideCalendar
+### SlideCalendar
 > **Slide left and right**
 
 > **Add custom events**
 
 
-###Demo
+### Demo
 ![image](https://raw.githubusercontent.com/EasyToForget/SlideCalendar/master/Calendar.gif)
 
 
-###Open Source
+### Open Source
 
 > **ButterKnife**
 
@@ -22,7 +22,7 @@
 
 * **License:** `Licensed under the Apache License, Version 2.0 (the "License");`
 
-###License
+### License
 
 ```
 Calendar for Android
